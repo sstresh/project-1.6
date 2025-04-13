@@ -1,0 +1,159 @@
+.header {
+  min-height: 88px;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #d9fff5;
+}
+.header__navigation__list {
+  min-width: 100%;
+  justify-content: space-between;
+}
+.header__navigation {
+  min-width: 100%;
+  justify-content: space-between;
+}
+.navigation__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2vw;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__right-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+  padding: 0;
+  margin-right: 1.5vw;
+}
+.navigation__left-menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3vw;
+  padding: 0;
+  margin-left: 2vw;
+}
+.navigation__button-menu {
+  background: none;
+  border: none;
+}
+.navigation__menu-liner2 {
+  background: none;
+  border: none;
+  margin-right: 2vw;
+}
+.navigation__menu-logo {
+  background: none;
+  border: none;
+}
+.navigation__button-bid {
+  background: none;
+  border: none;
+}
+.navigation__button-status {
+  background: none;
+  border: none;
+}
+
+.navigation__menu-liner1 {
+  display: none;
+}
+.navigation__button-call {
+  display: none;
+}
+.navigation__button-chat {
+  display: none;
+}
+.navigation__button-profile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    min-height: 88px;
+    min-width: 768px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid #d9fff5;
+  }
+  .header__navigation__list {
+    min-width: 100%;
+    justify-content: space-between;
+  }
+  .navigation__right-menu {
+    margin-right: 2vw;
+    justify-content: space-between;
+  }
+  .header__navigation {
+    min-width: 100%;
+    justify-content: space-between;
+  }
+  .navigation__menu-liner1 {
+    display: block;
+    background: none;
+    border: none;
+  }
+  .navigation__button-call {
+    display: block;
+    background: none;
+    border: none;
+  }
+  .navigation__button-call:hover {
+    filter: opacity(50%);
+  }
+  .navigation__button-chat:hover {
+    filter: opacity(50%);
+  }
+  .navigation__button-chat {
+    display: block;
+    background: none;
+    border: none;
+  }
+  .navigation__button-profile {
+    display: block;
+    background: none;
+    border: none;
+  }
+  .navigation__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    padding: 0;
+  }
+  .navigation__right-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .navigation__left-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: 0;
+    margin-left: 2vw;
+  }
+  .navigation__menu-liner2 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1120px) {
+  .header {
+    display: none;
+  }
+}
